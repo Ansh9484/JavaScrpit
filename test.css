@@ -1,0 +1,59 @@
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.perent{
+    height: 650px;
+    width: 350px;
+    background-color: bisque;
+    border-radius: 15px;
+    padding: 5px 20px 20px 20px ;
+    position: relative;   
+    
+}
+.status{
+    height: 100px;
+    width: 100%;
+    margin-top: 5px;
+    border-bottom: 1px solid gray;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.stori{
+    margin-top: 5px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 3px solid red;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 8px;
+}
+.status::-webkit-scrollbar{
+    display: none;
+}
+.img{
+    margin-top: 20px;
+    height: 70%;
+    width: 100%;
+}
+@keyframes mymove {
+    from {right: 0px;}
+    to {right: 100%;}
+  }
+.img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    opacity: 1;
+    transition: 2s;
+}
+.img i{
+     font-size: 20px;
+}
